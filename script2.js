@@ -34,9 +34,9 @@ const spanEl = document.querySelector("header span");
 //   console.log(this);
 // }
 const handelSpanEl = (event) => {
-  alert("Authorized By Anbu");
   console.log(event.target);
-  //   console.log(this);
+  alert(event.type + " at " + event.currentTarget.innerHTML);
+  alert("coordinates : " + event.clientY + " : " + event.clientY);
 };
 // function handelSpanEl2() {
 //   alert("Authorized By Gokul");
